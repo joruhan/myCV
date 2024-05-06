@@ -1,0 +1,272 @@
+body{
+    font-family: "Garamond", "Cambria";
+}
+.outer-panel{
+    display: flex;
+}
+
+/*LEFT PANEL CSS*/
+.left-panel{
+    width: 40%;
+    height: 150vh;
+    background-color: #b2bec3;
+    border-radius: 5px;
+}
+
+/* Profile Section */
+.profile-photo-section{
+    display: flex;
+    width: 97%;
+    height: 300px;
+    margin: 5px;
+}
+.profile-photo{
+    width: 40%;
+    height: 290px;
+    margin: 5px;
+}
+.pfp{
+    width: 95%;
+    border-radius: 50%;
+    margin: 15px 5px;
+}
+
+/*Contact Me Section */
+.contact-me-section{
+    width: 58%;
+    height: 290px;
+    margin: 5px;
+}
+.contact-me{
+    width: 97%;
+    height: 50px;
+    margin: 10px auto;
+}
+.contact-me h1{
+    background-color: #636e72;
+    margin: 1px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.contact-info {
+    width: 97%;
+    height: 200px;
+    margin: 10px auto;
+}
+.contact-info ul {
+    padding: 0;
+}
+.contact-info ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 18px auto;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+.contact-info ul li:hover {
+    transform: translateX(10px); 
+}
+.contact-info ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Garamond", "Cambria";
+}
+.contact-info-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px; 
+}
+.education-section{
+    display: flex;
+    width: 97%;
+    height: 250px;
+    margin: 10px;
+}
+.skills-section{
+    display: flex;
+    width: 97%;
+    height: 290px;
+    margin: 10px;
+}
+
+/*Education Section*/
+.education-section{
+    width : 100;
+    height: 550px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.education-header{
+    width: auto;
+    margin: 5px auto;
+    height: 60px;
+    align-self: flex-start;
+    border-radius: 10px;
+    background-color: #636e72;
+}
+.education-header h1{
+    font-size: 40px;
+    font-weight: black;
+    font-family: "Garamond", "Cambria";
+    margin: 0px auto;
+    padding: 5px 10px;
+}
+.education-info-container{
+    display: flex;
+}
+.education-info{
+    width: 97%;
+    height: 300px;
+    margin: 10px 10px;
+}
+.eudcation-info h1, h2, h3{
+    margin: 0px; 
+    padding: 0px;
+}
+.education-info h1 {
+    font-size: 30px;
+    transition: transform 0.3s;
+}
+.education-info h1:hover {
+    transform: translateX(10px) translateY(5px); 
+}
+.education-info h2{
+    font-size: 25px;
+    font-weight: normal;
+    transition: transform 0.3s;
+}
+.education-info h3{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*Skills Section*/
+.skills-section{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.skills-section-heading{
+    width: 20%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #636e72;
+    border-radius: 10px;
+    align-content: center;
+
+}
+.skills-section-heading h1{
+    font-size: 40px;
+    margin: 0px auto;
+    text-align: center;
+}
+.skills-section-icons{
+    width: 90%;
+    height: 300px;
+}
+.skills-section ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.skills-section ul li {
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    flex-basis: calc(25% - 20px);
+    transform:translate(0.2s);
+}
+.skills-section ul li:hover{
+    transform: translateX(5px) translateY(5px);
+}
+.skills-section ul li a {
+    display: block;
+}
+.skills-section ul li img{
+    height: 40px;
+    width: 40px; 
+    margin: 10px;
+}
+
+
+
+/*RIGHT PANEL CSS*/
+.right-panel{
+    width: 60%;
+    height: 150vh;
+    margin-left: 10px;
+}
+.personal-info{
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+}
+.personal-info h1, h2, h3{
+    font-family: "Garamond", "Cambria";
+    margin: 5px;
+    padding: 0px;
+}
+.personal-info h1{
+    font-size: 40px;
+}
+.personal-info h2{
+    font-size: 35px;
+    font-weight: normal;
+}
+.personal-info h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.about-me h4{
+    margin: 20px 0px 10px 20px;
+    font-size: 30px;
+    transform: translate(0.3s);
+}
+.abot-me h4:hover{
+    transform: translateX(10px);
+}
+.about-me p{
+    margin: 5px 30px 0px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.pBody{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.about-me-hr{
+    margin: -10px 20px 30px 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.company-details{
+    margin: 10px 0px;
+}
+.company-details p{
+    line-height: 1.5;
+}
+.hr-divider{
+    margin: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #f1f2f6;
+}
+.company-details .date {
+    margin-right: 70%; /* Adjust the right margin as needed */
+}
+.company-name{
+    font-weight: bold;
+    margin: -10px;
+}
+.reference-section{
+    display: flex;
+
+}
+
